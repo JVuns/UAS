@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:text="Do Something!"
+        android:textColor="@color/red"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/explanation_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="Are you bored? Check this out for something to do..."
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/getActivity_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get me a thing to do!"
+        android:backgroundTint="@color/red"
+        android:textAllCaps="false"
+        android:letterSpacing="0"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/explanation_text"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/activity_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/getActivity_btn"
+        android:layout_marginTop="64dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/activity_type_explanation_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What type of activity is this?"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/activity_text"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/activity_type_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/activity_type_explanation_text"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/activity_participants_explanation_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How many persons needed to do this?"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/activity_type_text"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/activity_participants_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/activity_participants_explanation_text"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/saveActivity_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_participants_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/red"
+        android:letterSpacing="0"
+        android:text="Save this as favourite"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/smsActivity_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_participants_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="@color/red"
+        android:letterSpacing="0"
+        android:text="Send this to my SMS"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

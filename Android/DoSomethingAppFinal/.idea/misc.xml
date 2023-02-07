@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Binus/DoSomethingAppFinal/app/src/main/res/drawable/ic_baseline_bookmark_24.xml" value="0.125" />
+        <entry key="..\:/Binus/DoSomethingAppFinal/app/src/main/res/drawable/ic_launcher_background.xml" value="0.125" />
+        <entry key="..\:/Binus/DoSomethingAppFinal/app/src/main/res/layout/activity_about.xml" value="0.25416666666666665" />
+        <entry key="..\:/Binus/DoSomethingAppFinal/app/src/main/res/layout/activity_data.xml" value="0.2" />
+        <entry key="..\:/Binus/DoSomethingAppFinal/app/src/main/res/layout/activity_gmaps.xml" value="0.2028985507246377" />
+        <entry key="..\:/Binus/DoSomethingAppFinal/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Binus/DoSomethingAppFinal/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Binus/DoSomethingAppFinal/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Binus/DoSomethingAppFinal/app/src/main/res/layout/activity_saved.xml" value="0.25416666666666665" />
+        <entry key="..\:/Binus/DoSomethingAppFinal/app/src/main/res/layout/activity_types.xml" value="0.25416666666666665" />
+        <entry key="..\:/Binus/DoSomethingAppFinal/app/src/main/res/layout/activitytype_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Binus/DoSomethingAppFinal/app/src/main/res/layout/fragment_about_app.xml" value="0.25416666666666665" />
+        <entry key="..\:/Binus/DoSomethingAppFinal/app/src/main/res/layout/fragment_about_team.xml" value="0.4" />
+        <entry key="..\:/Binus/DoSomethingAppFinal/app/src/main/res/menu/about_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Binus/DoSomethingAppFinal/app/src/main/res/menu/app_menu.xml" value="0.10729166666666666" />
+        <entry key="..\:/Binus/DoSomethingAppFinal/app/src/main/res/menu/saved_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Binus/DoSomethingAppFinal/app/src/main/res/menu/types_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

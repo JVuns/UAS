@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutAppFragment"
+    android:layout_marginHorizontal="16dp">
+
+    <TextView
+        android:id="@+id/aboutApp_title"
+        android:text="About This App"
+        android:textColor="@color/red"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/aboutApp_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aboutApp_title"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="Do Something!\n\nThis is an application that may help you to get out from your boredom zone. How?\n\nIf you are feeling bored, just try a click on our main button to show an activity that you may try doing.\n\nNot satisfied? Click on it again and again until you find one sutiing for you.\n\nInterested to do that activity again in the future? Save the activity and later just go into saved activities page to do it again!\n\nEvery activity has its own activity type. If you don't understand what that means just go into the activity types explanation page by accessing the menu!\n\nEnjoy life more, enjoy using our application!"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</RelativeLayout>
